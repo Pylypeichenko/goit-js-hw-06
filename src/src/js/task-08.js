@@ -9,6 +9,7 @@ loginForm.addEventListener("submit", (event) => {
 
   if (email.value === "" || password.value === "") {
     window.alert("All fields should be filled !");
+    return;
   }
 
   const data = {
